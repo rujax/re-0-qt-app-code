@@ -1,0 +1,55 @@
+QWidget#container, QWidget#feeds-container {
+    background-color: #fcfcfc;
+}
+
+QLineEdit#feed-edit {
+    height: 60px;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+QPushButton#subscribe-button {
+    width: 180px;
+    height: 60px;
+    padding: 5px;
+    background-color: #ff9632;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+QPushButton#subscribe-button:hover {
+    background-color: #ee802f;
+}
+
+QPushButton#subscribe-button:pressed {
+    background-color: #ff9632;
+}
+
+QFrame#subscribe-line {
+    color: lightgray;
+}
+
+QLabel.feed-label {
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+QFrame#information-line {
+    color: gray;
+}
+
+QLabel#version-label {
+    font-weight: bold;
+    color: gray;
+    font-size: 14px;
+}
+
+QPushButton#config-button, QPushButton#config-button:hover {
+    background-color: none;
+    border: none;
+}

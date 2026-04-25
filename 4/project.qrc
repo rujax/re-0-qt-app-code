@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>config.svg</file>
+        <file>project.qss</file>
+    </qresource>
+</RCC>
